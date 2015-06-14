@@ -1,22 +1,22 @@
 //
 //  ViewController.m
-//  UIApplication+HelperDemo
+//  BSAppHelperDemo
 //
-//  Created by Bogdan Stasjuk on 6/15/15.
-//  Copyright © 2015 Bogdan Stasjuk. All rights reserved.
+//  Created by Bogdan Stasjuk on 6/13/15.
+//  Copyright (c) 2015 Bogdan Stasjuk. All rights reserved.
 //
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "UIApplication+Helper.h"
 
-@end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+
+  NSLog(@"App's installation date: %@", [UIApplication installationDate]);
 }
 
 - (void)didReceiveMemoryWarning {
