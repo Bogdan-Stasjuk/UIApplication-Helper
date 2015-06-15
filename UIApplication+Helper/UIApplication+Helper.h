@@ -5,7 +5,7 @@
 //  Copyright (c) 2015 Bogdan Stasjuk. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 
 @interface UIApplication (Helper)
