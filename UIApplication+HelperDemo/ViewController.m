@@ -16,7 +16,9 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  NSLog(@"App's installation date: %@", [UIApplication installationDate]);
+    NSLog(@"App's installation date: %@", [UIApplication installationDate]);
+
+    NSLog(@"Name for current interface orientation: %@", [UIApplication nameForInterfaceOrientation:[UIApplication sharedApplication].statusBarOrientation]);
 }
 
 - (void)didReceiveMemoryWarning {

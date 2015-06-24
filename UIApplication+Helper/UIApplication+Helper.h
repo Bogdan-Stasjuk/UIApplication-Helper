@@ -12,4 +12,6 @@
 
 + (NSDate *)installationDate;
 
++ (NSString *)nameForInterfaceOrientation:(UIInterfaceOrientation)orientation;
+
 @end
