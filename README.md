@@ -9,6 +9,11 @@ Helper methods for determining different characteristics of the current applicat
 ```
 returns date when app was installed on the device.
 
+```objc
++ (NSString *)nameForInterfaceOrientation:(UIInterfaceOrientation)orientation;
+```
+returns name for UIInterfaceOrientation enum's value
+
 
 Demo
 ====
